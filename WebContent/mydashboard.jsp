@@ -23,7 +23,7 @@
 						</div>
 						<div class="row">
 							<div class="col-xs-12">
-								<div class="jumbotron" id="fcc-jumbo-panne">
+								<div class="jumbotron well" id="fcc-jumbo-panne">
   									<h1 class="myfcc-jumbo-h1" id="activate-h1"><%out.println(usuario); %> Activate your account</h1>
   									 <p class="myfcc-jumbo-p">The registration process was successful, we have sent a e-mail to your registered email address containing the activation code, please retrieve code and paste it in te verification box or follow the activation link within the email body</p>
   									 <h2 class="myfcc-jumbo-h2">You did not get the code?</h2>
@@ -42,5 +42,6 @@
 					</div>
 				<script src="js/jquery-1.11.3.js"></script>
 				<script src="js/bootstrap.min.js"></script>
+				<script src="js/myfcc-js.js"></script>
 			</body>
 		</html>
