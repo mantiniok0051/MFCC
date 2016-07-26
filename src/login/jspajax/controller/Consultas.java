@@ -1,4 +1,4 @@
-package Controlador;
+package login.jspajax.controller;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

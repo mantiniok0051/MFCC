@@ -1,4 +1,4 @@
-package Servlet;
+package login.jspajax.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,10 +11,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import Controlador.Consultas;
+import login.jspajax.controller.Consultas;
 
 /**
- * Servlet implementation class LogIn
+ * login.jspajax.servlets implementation class LogIn
  */
 @SuppressWarnings("unused")
 @WebServlet("/doLogIn")
